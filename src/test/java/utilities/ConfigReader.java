@@ -81,7 +81,44 @@ public class ConfigReader {
 			System.out.println("Endpoint is not mentioned in config properties");
 		}	return getEndPoint;	
 	}
+	public static String putProgramByProgramNameEndpoint() throws IOException {
+		prop=init_prop();
+		String putProgramNamePoint = prop.getProperty("PutProgramByProgramNameEndpoint");
+		if (putProgramNamePoint != null)
+			return putProgramNamePoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	public static String putProgramByProgramIdEndpoint() throws IOException {
+		prop=init_prop();
+		String putbyprogramIdEndPoint = prop.getProperty("PutProgramByProgramIdEndpoint");
+		if ( putbyprogramIdEndPoint != null)
+			return  putbyprogramIdEndPoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
+	public static String getAllEndpoint() throws IOException
+	{   
+		prop=init_prop();
+		String getAllPoint=prop.getProperty("GetAllEndpoint");
+		if(getAllPoint!=null)
+		{
+			return getAllPoint;
+		}else
+		{
+			System.out.println("GetAllEndpoint is not mentioned in config properties");
+		}	return getAllPoint;	
+	}
 	
+	public static String getOneProgramIdEndpoint() throws IOException {
+		prop=init_prop();
+
+		String getIdEndPoint = prop.getProperty("GetOneProgramIdEndpoint");
+		if (getIdEndPoint != null)
+			return getIdEndPoint;
+		else
+			throw new RuntimeException("GetOneProgramIdEndpoint not specified in the Config.properties file");
+	}
 	
 	public static String endpointBatchSave() throws IOException
 	{prop=init_prop();

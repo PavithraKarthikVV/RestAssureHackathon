@@ -16,7 +16,14 @@ Then User receives 201 Created Status with response body for user
   Scenario Outline: User tries to update a user with valid User ID and request body
     Given User is provided with the BaseUrl and the Endpoints for update user
     When User tries to update First Name, Last Name, Time Zone, and Visa Status "<sheetname>" and <rownumber>
-    #Then User gets all Users related info by ID in response 200
+    Then User receives 200 Created Status with response body for user
     Examples:
     |sheetname|rownumber|
     |user|0|
+    
+        
+@GET_getUserInfoById @userRun
+   Scenario: User tries to get User info by ID
+    Given User executes GET Request to get User info by ID
+    When User send GET Request to get User info by ID
+    Then User receives 200 Created Status with response body for user

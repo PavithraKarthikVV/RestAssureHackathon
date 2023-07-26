@@ -83,8 +83,6 @@ public class DAssignment {
 		AssignmentId=response.jsonPath().getString("assignmentId");
 		System.out.println("Assignment Response:\n"+response.jsonPath().prettyPrint());
 		return response;
+		}
 	
-	}
-	
-
 }

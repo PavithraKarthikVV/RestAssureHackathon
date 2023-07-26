@@ -12,6 +12,7 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import moduleobject.CUser;
 import utilities.ConfigReader;
+import utilities.LoggerLoad;
 
 public class CUser_SD {
 	CUser usr=new CUser();
@@ -42,7 +43,6 @@ public class CUser_SD {
 	}
 	
 	
-	
 	@Given("User is provided with the BaseUrl and the Endpoints for update user")
 	public void user_is_provided_with_the_base_url_and_the_endpoints_for_update_user() throws IOException {
 	    posturi=ConfigReader.baseUri()+ConfigReader.userUpdateuserrolestatus();
@@ -63,4 +63,22 @@ public class CUser_SD {
 		Assert.assertEquals(response.statusCode(), expectedstatuscode);	
 	}
 
+	
+	@Given("User executes GET Request to get User info by ID")
+	public void user_executes_get_request_to_get_user_info_by_id() throws IOException {
+	    posturi=ConfigReader.baseUri()+ConfigReader.endpointUserDeleteid();
+	    LoggerLoad.info("*********"+posturi);
+	    
+	}
+
+	@When("User send GET Request to get User info by ID")
+	public void user_send_get_request_to_get_user_info_by_id() {
+	    //response=when().get(postURI);
+		usr.getuserbyid(posturi);
+	    LoggerLoad.info("****user got by userid*****");
+	}
+
+	
+
+	
 }

@@ -35,9 +35,8 @@ public class CUser {
 	private String userVisaStatus;
 	private String userid;
 	public static String UserId;
-	public static String StaffId;
-	public static String AdminId;
-	public static String StudId;
+	public static String UserRoleId;
+	
 	RequestSpecification requestSpecification;
 	Response response;
 	public RequestSpecification noAuthendication(String noauth)
@@ -104,17 +103,9 @@ public class CUser {
 		System.out.println("User Request : \n"+ createdNestedJsonObject);
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		UserId=response.jsonPath().getString("userId");
-//		if(roleid=="R01")
-//		{
-//			AdminId=response.jsonPath().getString("userRoleId");
-//		}
-//		else if(roleid=="R02")
-//		{
-//			StaffId=response.jsonPath().getString("userRoleId");
-//		}
-//		else
-//		{StudId=response.jsonPath().getString("userRoleId");}
-//			
+		UserRoleId=response.jsonPath().getString("userRoleId");
+		
+					
 		System.out.println("User Response:\n"+response.jsonPath().prettyPrint());
 		return response;
 	}
@@ -130,6 +121,13 @@ public class CUser {
 		System.out.println("MESSAGE:"+body);
 		return response;
 		
+	}
+
+	public Response getuserbyid(String posturi) {
+		// TODO Auto-generated method stub
+		Response response = noAuthendication(noAuth).get(posturi+"{uid}"+CUser.UserId);
+		statuscode=response.getStatusCode();	
+		return response;
 	}
 	
 }

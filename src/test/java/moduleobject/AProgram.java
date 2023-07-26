@@ -7,7 +7,7 @@ import java.util.Random;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.json.simple.JSONObject;
-
+import org.apache.commons.lang3.RandomStringUtils;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -17,6 +17,7 @@ public class AProgram {
 	private String programdec;
 	private String progname;
 	private String progstatus;
+	public static int statuscode;
 	public static String ProgramId;
 	public static String ProgramName;
 	RequestSpecification requestSpecification;
@@ -61,10 +62,52 @@ public class AProgram {
 		ProgramId=response.jsonPath().getString("programId");
 		ProgramName = response.jsonPath().getString("programName");
 		System.out.println("Program Reponse:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
 		return response;
 	}
 	
 	
+	public Response putprogramid(String postUri)
+	{
+		JSONObject jsonObjectput = new JSONObject();
+		 String programDesc=programdec+"_modifiedID";
+		  jsonObjectput.put("programDescription",programDesc);
+		  jsonObjectput.put("programName", ProgramName);
+		  jsonObjectput.put("programStatus", progstatus);
+		String payload = jsonObjectput.toString();
+		Response response = noAuthendication(noAuth).body(payload).put(postUri+"{id}",ProgramId);
+		System.out.println(response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		return response;
+	}
+	public Response putprogramname(String postUri)
+	{
+		JSONObject jsonObjectput = new JSONObject();
+		String programDesc=programdec+"_modifiedname";
+		  
+		  jsonObjectput.put("programDescription",programDesc);
+		  jsonObjectput.put("programName", ProgramName);
+		  jsonObjectput.put("programStatus", progstatus);
+		String payload = jsonObjectput.toString();
+		Response response = noAuthendication(noAuth).body(payload).put(postUri+"{pnme}",ProgramName);
+		statuscode=response.getStatusCode();
+		System.out.println(response.jsonPath().prettyPrint());
+		return response;
+	}
+	public Response getAllprogram(String postUri)
+	{
+	response=noAuthendication(noAuth).get(postUri);
+	System.out.println(response.jsonPath().prettyPrint());
+	statuscode=response.getStatusCode();
+	return response;
 	}
 	
+	public Response getprogramid(String postUri)
+	{
+	response=noAuthendication(noAuth).get(postUri+"{pid}",ProgramId);
+	System.out.println(response.jsonPath().prettyPrint());
+	statuscode=response.getStatusCode();
+	return response;
+	}
+}
 
