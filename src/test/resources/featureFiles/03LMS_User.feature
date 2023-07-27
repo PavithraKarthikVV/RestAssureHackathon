@@ -2,7 +2,7 @@
 Feature: Test LMS Apis batch module with rest assured library and cucumber framework
 Background:
 		Given User sets Authoization to "No Auth" for user
-		
+	@Post	
 Scenario Outline:
 Given User creates POST Request for the user LMS API endpoint
 When User sends HTTPS Request for user using "<SheetName>" and <Rowno> 

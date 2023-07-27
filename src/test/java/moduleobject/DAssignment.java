@@ -29,6 +29,7 @@ public class DAssignment {
 	public static String AssignmentId;
 	RequestSpecification requestSpecification;
 	Response response;
+	
 	public RequestSpecification noAuthendication(String noauth)
 	{
 		noAuth=noauth;	
@@ -68,9 +69,9 @@ public class DAssignment {
 		objnode.put("assignmentDescription", assignmentDescription);
 		objnode.put("batchId", BBatch.BatchId);
 		objnode.put("comments",comments);
-		objnode.put("createdBy",CUser.UserId);
+		objnode.put("createdBy",CUser.UserId[0]);
 		objnode.put("dueDate",commonfun.duedate());
-		objnode.put("graderId", CUser.UserId);
+		objnode.put("graderId", CUser.UserId[0]);
 		objnode.put("pathAttachment1","assg1");
 		objnode.put("pathAttachment2","assg2");
 		objnode.put("pathAttachment3","assg3");

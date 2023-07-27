@@ -58,8 +58,12 @@ public void user_creates_delete_request_for_the_lms_api_endpoint_and_valid_user_
 
 @When("User sends HTTPS Request for user")
 public void user_sends_https_request_for_user() throws IOException {
-	System.out.println(posturi);
-		response= delete.deleteuserid(posturi);}
+		System.out.println(posturi);
+		 delete.deleteuserid(posturi);}
+@Then("User receives {int} Ok status with message for user")
+public void user_receives_ok_status_with_message_for_user(Integer statuscode) {
+	Assert.assertEquals(GDelete.status,statuscode ); 
+}
 @Given("User creates DELETE Request for the LMS API endpoint  and  valid assignment ID")
 public void user_creates_delete_request_for_the_lms_api_endpoint_and_valid_assignment_id() throws IOException {
 	posturi=ConfigReader.baseUri()+ConfigReader.endpointAssignmentDeleteid();

@@ -29,13 +29,15 @@ public class CUser {
 	private String userlinkedinUrl;
 	private String userlocation;
 	private String usermiddlename;
-	private String roleid;
+	private String[] roleid=new String[] {"R01","R02","R03"};
+	
 	private String userRoleStatus;
 	private String userTimeZone;
 	private String userVisaStatus;
 	private String userid;
-	public static String UserId;
-	public static String UserRoleId;
+	public static int statuscode;
+	public static String[] UserId=new String[3];
+	public static String[] UserRoleId=new String[3];
 	
 	RequestSpecification requestSpecification;
 	Response response;
@@ -61,7 +63,7 @@ public class CUser {
 			 userlinkedinUrl=testdata.get(rownumber).get("userLinkedinUrl");
 			 userlocation = testdata.get(rownumber).get("userLocation");	
 			 usermiddlename=testdata.get(rownumber).get("userMiddleName");
-			 roleid=testdata.get(rownumber).get("roleIdR01");
+			 //roleid=testdata.get(rownumber).get("roleIdR01");
 			 userRoleStatus=testdata.get(rownumber).get("userRoleStatusActive");
 			 userTimeZone = testdata.get(rownumber).get("TimeEST");	
 			 userVisaStatus=testdata.get(rownumber).get("userVisaStatus");		
@@ -76,7 +78,10 @@ public class CUser {
 	
 	
 	public Response postuser(String uri) throws IOException, ParseException
-	{ObjectMapper obj=new ObjectMapper();
+	{	
+	for(int i=0;i<roleid.length;i++)
+	{
+		ObjectMapper obj=new ObjectMapper();
 		ObjectNode objnode = obj.createObjectNode();
 		objnode.put("userComments",usercomments);
 		objnode.put("userEduPg", usereduPg);
@@ -90,7 +95,7 @@ public class CUser {
 		objnode.put("userPhoneNumber", commonfun.phoneNum());
 		//System.out.println(commonfun.phoneNum());
 		ObjectNode objnode2 = obj.createObjectNode();
-		objnode2.put("roleId",roleid);
+		objnode2.put("roleId",roleid[i]);
 		objnode2.put("userRoleStatus", userRoleStatus);
 		ArrayNode  objnode3 = obj.createArrayNode();
 		objnode3.add(objnode2);
@@ -102,32 +107,39 @@ public class CUser {
 		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
 		System.out.println("User Request : \n"+ createdNestedJsonObject);
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
-		UserId=response.jsonPath().getString("userId");
-		UserRoleId=response.jsonPath().getString("userRoleId");
-		
-					
+		UserId[i]=response.jsonPath().getString("userId");
+		System.out.println("-----------"+UserId[i]);
 		System.out.println("User Response:\n"+response.jsonPath().prettyPrint());
-		return response;
+		statuscode=response.getStatusCode();
+		
+	}
+	return response;
 	}
 	
 	@SuppressWarnings("unchecked")
 	public Response putuser(String postURI) throws JsonProcessingException {
 		JSONObject jsonObject = new JSONObject();
-		jsonObject.put("roleId",roleid);
-		jsonObject.put("userRoleStatus",userRoleStatus);			
+		jsonObject.put("roleId",roleid[1]);
+		jsonObject.put("userRoleStatus","InActive");			
 		String payload = jsonObject.toString();
-		Response response = noAuthendication(noAuth).body(payload).put(postURI+"{uid}",CUser.UserId);
-		String body=response.statusLine();	
-		System.out.println("MESSAGE:"+body);
-		return response;
+		Response response = noAuthendication(noAuth).body(payload).put(postURI+"{uid}",UserId[1]);
+		statuscode=response.getStatusCode();	
+			return response;
 		
 	}
 
-	public Response getuserbyid(String posturi) {
+	public void getuserbyid(String posturi) {
 		// TODO Auto-generated method stub
-		Response response = noAuthendication(noAuth).get(posturi+"{uid}"+CUser.UserId);
-		statuscode=response.getStatusCode();	
-		return response;
+		for(int i=0;i<roleid.length;i++)
+		{
+		response=noAuthendication(noAuth).get(posturi+"{pid}",UserId[i]);
+		//System.out.println(response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		UserRoleId[i]=response.jsonPath().getString("userRoleId");
+		System.out.println("UserRoleId:"+UserRoleId[i]);
+	
+		}
+	//	return response;
 	}
 	
 }

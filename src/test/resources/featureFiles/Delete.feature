@@ -21,7 +21,7 @@ Background:
  	Scenario: Check if user able to delete a user with valid user ID
  	Given User creates DELETE Request for the LMS API endpoint  and  valid user ID
 	When User sends HTTPS Request for user
-	Then User receives 200 Ok status with message 	
+	Then User receives 200 Ok status with message for user	
 		
 	@DeleteBtch
  	Scenario: Check if user able to delete a program with valid batch ID

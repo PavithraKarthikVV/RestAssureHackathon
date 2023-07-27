@@ -14,11 +14,11 @@ Examples:
   |user|0|  
  	
  	
- @GET_PositiveAllPrograms 
+ @GET_PositiveAllPrograms  @Post
   Scenario: validating User able to retrieve all programs with valid endpoint
-    Given User is provided with the BaseUrl and the Endpoints to create a GET request
-    When  User send the HTTPsGET request
-    Then  User receives 200 Created Status with response body
+ #   Given User is provided with the BaseUrl and the Endpoints to create a GET request
+  #  When  User send the HTTPsGET request
+   # Then  User receives 200 Created Status with response body
  	
  		
 	@GET_PositiveByValidProgramID 

@@ -225,6 +225,129 @@ public class ConfigReader {
 	}
 
 	
+	public static String endpointAssgSubmissiongettall() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetall");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	public static String endpointAssgSubmissiongradeassignmentid() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetgradeassignmentid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	
+	public static String endpointAssgSubmissiongraderbatchid() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetgraderbatchid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+
+	public static String endpointAssgSubmissiongradestudentid() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetgradestudentid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+
+	
+	
+	public static String endpointAssgSubmissiongradeuserid() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetuserid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	public static String endpointAssgSubmissionbatchid() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongetbatchid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	
+	
+	public static String endpointAssgSubmissionResubmit() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissionresubmit");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	public static String endpointAssgSubmissiongradeAssignmentSub() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assgsubmissiongradeassignmentSub");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public static String userUpdateuserrolestatus() throws IOException
 	{   
 		prop=init_prop();

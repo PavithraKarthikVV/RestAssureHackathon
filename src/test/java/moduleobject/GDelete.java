@@ -8,6 +8,7 @@ public class GDelete {
 	RequestSpecification requestSpecification;
 	Response response;
 	private String noAuth;
+	public static int status;
 	public RequestSpecification noAuthendication(String noauth)
 	{
 		noAuth=noauth;	
@@ -25,9 +26,13 @@ public class GDelete {
 		return response=noAuthendication(noAuth).delete(uri+"{progid}",AProgram.ProgramId);	
 	}
 	
-	public Response deleteuserid(String uri)
+	public void deleteuserid(String uri)
 	{
-		return response=noAuthendication(noAuth).delete(uri+"{uid}",CUser.UserId);	
+		for(int i=0;i<3;i++)
+		{
+		response=noAuthendication(noAuth).delete(uri+"{uid}",CUser.UserId[i]);	
+		 status=response.getStatusCode();
+		}
 	}
 	
 	public Response deleteassignmentid(String uri)

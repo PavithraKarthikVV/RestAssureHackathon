@@ -33,12 +33,12 @@ public class CUser_SD {
 	@When("User sends HTTPS Request for user using {string} and {int}")
 	public void user_sends_https_request_and_request_body_with_mandatory_additional_using_and_rowno(String sheetname,Integer rowno) throws InvalidFormatException, IOException, ParseException {
 		usr.getDatafromExcel(sheetname, rowno);
-	  response= usr.postuser(posturi);
+		usr.postuser(posturi);
 	   
 	}
 	@Then("User receives {int} Created Status with response body for user")
 	public void user_receives_created_status_with_response_body(Integer statuscode) {
-		Assert.assertEquals(response.getStatusCode(),statuscode ); 
+		Assert.assertEquals(CUser.statuscode,statuscode ); 
 		
 	}
 	

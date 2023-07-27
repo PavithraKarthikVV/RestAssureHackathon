@@ -51,7 +51,7 @@ public class AProgram {
 	
 	public Response postprogram(String uri)
 	{Random generator = new Random();
-	int i = generator.nextInt(500) + 1;
+	int i = generator.nextInt(2111) + 1;
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("programDescription",programdec);
 		jsonObject.put("programName", progname+i);
