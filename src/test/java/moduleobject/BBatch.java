@@ -11,6 +11,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.ExcelReader;
+import utilities.LoggerLoad;
 
 public class BBatch {
 	private String noAuth;
@@ -30,6 +31,7 @@ public class BBatch {
 	}
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		LoggerLoad.info("----Reading TestData from Excel----");
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
@@ -64,6 +66,7 @@ public class BBatch {
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		BatchId=response.jsonPath().getString("batchId");
 		System.out.println("Batch Response:\n"+response.jsonPath().prettyPrint());
+		LoggerLoad.info("----Save Batch----");
 		return response;
 	}
 	

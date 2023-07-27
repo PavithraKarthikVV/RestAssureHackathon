@@ -19,6 +19,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.ExcelReader;
+import utilities.LoggerLoad;
 import utilities.commonfun;
 
 public class DAssignment {
@@ -39,6 +40,7 @@ public class DAssignment {
 	}
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		LoggerLoad.info("----Reading TestData from Excel----");
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
@@ -83,6 +85,7 @@ public class DAssignment {
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		AssignmentId=response.jsonPath().getString("assignmentId");
 		System.out.println("Assignment Response:\n"+response.jsonPath().prettyPrint());
+		LoggerLoad.info("----Create Assignment----");
 		return response;
 		}
 	

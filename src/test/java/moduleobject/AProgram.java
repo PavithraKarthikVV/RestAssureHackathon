@@ -7,11 +7,12 @@ import java.util.Random;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.json.simple.JSONObject;
-import org.apache.commons.lang3.RandomStringUtils;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.ExcelReader;
+import utilities.LoggerLoad;
 public class AProgram {
 	private String noAuth;
 	private String programdec;
@@ -31,6 +32,7 @@ public class AProgram {
 	}
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		LoggerLoad.info("----Reading TestData from Excel----");
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
@@ -63,7 +65,9 @@ public class AProgram {
 		ProgramName = response.jsonPath().getString("programName");
 		System.out.println("Program Reponse:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Programpost----");
 		return response;
+	
 	}
 	
 	
@@ -78,6 +82,7 @@ public class AProgram {
 		Response response = noAuthendication(noAuth).body(payload).put(postUri+"{id}",ProgramId);
 		System.out.println(response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Update Program by ID----");
 		return response;
 	}
 	public Response putprogramname(String postUri)
@@ -92,6 +97,7 @@ public class AProgram {
 		Response response = noAuthendication(noAuth).body(payload).put(postUri+"{pnme}",ProgramName);
 		statuscode=response.getStatusCode();
 		System.out.println(response.jsonPath().prettyPrint());
+		LoggerLoad.info("----Update Program by Name----");
 		return response;
 	}
 	public Response getAllprogram(String postUri)
@@ -99,6 +105,7 @@ public class AProgram {
 	response=noAuthendication(noAuth).get(postUri);
 	System.out.println(response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
+	LoggerLoad.info("----GetAll Programe----");
 	return response;
 	}
 	
@@ -107,6 +114,7 @@ public class AProgram {
 	response=noAuthendication(noAuth).get(postUri+"{pid}",ProgramId);
 	System.out.println(response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
+	LoggerLoad.info("----get Program by Id----");
 	return response;
 	}
 }

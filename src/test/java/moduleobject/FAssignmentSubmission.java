@@ -15,6 +15,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.ExcelReader;
+import utilities.LoggerLoad;
 import utilities.commonfun;
 
 public class FAssignmentSubmission {
@@ -41,6 +42,7 @@ public class FAssignmentSubmission {
 	}
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		LoggerLoad.info("----Reading TestData from Excel----");
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
@@ -89,6 +91,7 @@ public class FAssignmentSubmission {
 //		System.out.println(DAssignment.AssignmentId);
 //		System.out.println(AssignmentSubmissionId);
 		statuscode=response.getStatusCode();	
+		LoggerLoad.info("----Save AssignmentSubmission----");
 	}
    	
    	public void putassignmentResubmission(String uri) throws JsonProcessingException
@@ -109,11 +112,9 @@ public class FAssignmentSubmission {
 		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
 		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
 		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
-		System.out.println("=============================Assignmentid"+AssignmentSubmissionId);
-		//AssignmentSubmissionId=response.jsonPath().getString("submissionId");
-		//submissiondatetime=response.jsonPath().getString("subDateTime");
 		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Update AssignmentSubmission----");
 	
 	}
    	
@@ -136,10 +137,9 @@ public class FAssignmentSubmission {
 		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
 		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
 		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
-		System.out.println("=============================Assignmentid"+AssignmentSubmissionId);
-		//AssignmentSubmissionId=response.jsonPath().getString("submissionId");
 		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Re-AssignmentSubmission----");
 	
 	}
    	public void getAssignmentSubmissionGradeByAssignmentId(String postUri)
@@ -148,6 +148,7 @@ public class FAssignmentSubmission {
 											
 	System.out.println("###AssignmentID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
+	LoggerLoad.info("----get AssignmentSubmission Grade AssignmentId----");
 	
 	}
    	public void getAllAssignmentSubmission(String postUri)
@@ -155,6 +156,7 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri);
 	System.out.println("###AllAssignmentSubmission####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
+	LoggerLoad.info("----getAll AssignmentSubmission----");
 	
 	}
    	
@@ -163,7 +165,7 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri+"{stdid}",CUser.UserId[2]);
 	System.out.println("###StudentID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
-	
+	LoggerLoad.info("----get AssignmentSubmission by gradeStudentId----");
 	}
 	
 	public void getAllAssignmentgradeBatchId(String postUri)
@@ -171,12 +173,14 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri+"{btchid}",BBatch.BatchId);
 	System.out.println("###BatchID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
+	LoggerLoad.info("----get AssignmentSubmission by gradeBatchId----");
 	
 	}
 	public void getAssignmentSubmissionStudentId(String postUri)
 	{
 	response=noAuthendication(noAuth).get(postUri+"{uid}",CUser.UserId[2]);
 	System.out.println("###UserID####"+response.jsonPath().prettyPrint());
+	LoggerLoad.info("----get AssignmentSubmission Grade AssignmentId----");
 	statuscode=response.getStatusCode();
 	
 	}
@@ -184,6 +188,7 @@ public class FAssignmentSubmission {
 	{
 	response=noAuthendication(noAuth).get(postUri+"{uid}",BBatch.BatchId);
 	System.out.println("###BatchID####"+response.jsonPath().prettyPrint());
+	LoggerLoad.info("----get AssignmentSubmission BatchId----");
 	statuscode=response.getStatusCode();
 	
 	}
@@ -196,7 +201,7 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri+"{stdid}",invalidstudentid);
 	System.out.println("###StudentID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
-	
+		LoggerLoad.info("----get AssignmentSubmission by InvalidgradeStudentId----");
 	}
 	
 	public void getAllAssignmentgradeInvalidBatchId(String postUri)
@@ -204,12 +209,13 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri+"{btchid}",invalidbatchid);
 	System.out.println("###BatchID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
-	
+	LoggerLoad.info("----get AssignmentSubmission by InvalidgradeBatchId----");
 	}
 	public void getAssignmentSubmissionInvalidStudentId(String postUri)
 	{
 	response=noAuthendication(noAuth).get(postUri+"{uid}",invalidstudentid);
 	System.out.println("###UserID####"+response.jsonPath().prettyPrint());
+	LoggerLoad.info("----get AssignmentSubmission by InvalidStudentId----");
 	statuscode=response.getStatusCode();
 	
 	}
@@ -218,7 +224,7 @@ public class FAssignmentSubmission {
 	response=noAuthendication(noAuth).get(postUri+"{uid}",invalidbatchid);
 	System.out.println("###BatchID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
-	
+	LoggerLoad.info("----get AssignmentSubmission by InvalidBatchId----");
 	}
 	public void getAssignmentSubmissionGradeByInvalidAssignmentId(String postUri)
 	{
@@ -226,7 +232,7 @@ public class FAssignmentSubmission {
 											
 	System.out.println("###AssignmentID####"+response.jsonPath().prettyPrint());
 	statuscode=response.getStatusCode();
-	
+	LoggerLoad.info("----get AssignmentSubmission by InvalidSubmissionId----");
 	}
 	public void invalidpostassignmentsubmission(String uri) throws JsonProcessingException
 	{
@@ -248,6 +254,7 @@ public class FAssignmentSubmission {
 		submissiondatetime=response.jsonPath().getString("subDateTime");
 		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();	
+		LoggerLoad.info("----Invalid SubmissionPost----");
 	}
 	public void invalidpostassignmentsubmission404(String uri) throws JsonProcessingException
 	{
@@ -268,6 +275,7 @@ public class FAssignmentSubmission {
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();	
+		LoggerLoad.info("----Invalid Submission 404----");
 	}
 
 }

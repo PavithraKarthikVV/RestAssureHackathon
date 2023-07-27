@@ -17,6 +17,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import utilities.ExcelReader;
+import utilities.LoggerLoad;
 import utilities.commonfun;
 
 public class CUser {
@@ -50,6 +51,7 @@ public class CUser {
 	}
 
 	public void getDatafromExcel(String sheetname, int rownumber) throws IOException, org.apache.poi.openxml4j.exceptions.InvalidFormatException {
+		LoggerLoad.info("----Reading TestData from Excel----");
 		ExcelReader reader = new ExcelReader();
 		String data[]=new String[2];
 		List<Map<String, String>> testdata;
@@ -108,10 +110,9 @@ public class CUser {
 		System.out.println("User Request : \n"+ createdNestedJsonObject);
 		Response response = noAuthendication(noAuth).body(payload).post(uri);
 		UserId[i]=response.jsonPath().getString("userId");
-		System.out.println("-----------"+UserId[i]);
 		System.out.println("User Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
-		
+		LoggerLoad.info("---Create user----");
 	}
 	return response;
 	}
@@ -137,6 +138,7 @@ public class CUser {
 		statuscode=response.getStatusCode();
 		UserRoleId[i]=response.jsonPath().getString("userRoleId");
 		System.out.println("UserRoleId:"+UserRoleId[i]);
+		LoggerLoad.info("----UpdateUser----");
 	
 		}
 	//	return response;
