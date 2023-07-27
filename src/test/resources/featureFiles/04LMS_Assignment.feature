@@ -12,6 +12,7 @@ Then User receives 201 Created Status with response body for assignment
   |user     |0    |    
   
   
+  
 @Get_AllAssignment
  Scenario: validating User able to retrieve all Assignment with valid endpoint
  Given User is provided with the BaseUrl and the Endpoints to create a GET request for Assignment

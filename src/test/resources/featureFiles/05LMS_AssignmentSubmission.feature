@@ -23,7 +23,11 @@ Then User receives 201 Created Status with response body for assignmentSubmissio
     When  User send the HTTPsGET StudentID request for AssignmentSubmission
     Then  User receives 200 Created Status with response body for assignmentSubmission
     
-    
+    @Get_AllSubmissions
+ Scenario: validating User able to retrieve all AssignmentSubmission with valid endpoint
+ Given User is provided with the BaseUrl and the Endpoints to create a GET request for AssignmentSubmission
+ When  User send the HTTPsGET request for AssignmentSubmission
+ Then  User receives 200 Created Status with response body for assignmentSubmission
     @Get_AssignmentSubmision_BatchID     
   Scenario: validating User able to retrieve AssignmentSubmission by BatchID with valid endpoint
     Given User is provided with the BaseUrl and the Endpoints to create a GET BatchID request for AssignmentSubmission
