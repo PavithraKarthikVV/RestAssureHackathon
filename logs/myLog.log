@@ -85,3 +85,1352 @@
 [INFO ]2023-07-26 23:57:19.005 [main]LoggerLoad-----Delete User----
 [INFO ]2023-07-26 23:57:19.035 [main]LoggerLoad-----Delete Batch----
 [INFO ]2023-07-26 23:57:19.231 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:05:51.433 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:55.650 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:05:55.650 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:05:55.784 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:05:56.054 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:05:56.054 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:05:56.112 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:05:56.114 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:56.391 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:05:56.392 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:05:56.447 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:05:56.449 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:56.679 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:05:56.679 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:05:56.730 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:56.972 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:05:57.042 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:57.612 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:05:57.819 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:05:58.030 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:05:58.125 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:58.400 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:05:58.591 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:05:58.794 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:05:58.989 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:05:58.989 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:05:59.032 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:05:59.329 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:06:00.027 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:06:00.381 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:06:00.637 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:06:00.672 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:01.018 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:06:01.393 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:02.796 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:06:03.288 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission
+[INFO ]2023-07-27 01:06:04.305 [main]LoggerLoad-----getAll AssignmentSubmission----
+[INFO ]2023-07-27 01:06:04.323 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-27 01:06:04.622 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:06:04.812 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:06:04.812 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:06:04.842 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:06:05.041 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:06:05.041 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:06:05.072 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:06:05.247 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:06:05.247 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:06:05.278 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:05.700 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:06:05.767 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:06.054 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:06:06.083 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:06:06.281 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:06:06.281 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:06:06.310 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:06:06.478 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:06:06.479 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:06:06.506 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:06:06.507 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:06.704 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:06:06.704 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:06:06.724 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:06:06.725 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:06.943 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:06:06.943 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:06:06.971 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:06:06.972 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:07.178 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:06:07.178 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:06:07.213 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:06:07.214 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:07.441 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:06:07.442 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:06:07.476 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:06:07.477 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:07.675 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:06:07.675 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:06:07.702 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:07.929 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:06:07.956 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:06:08.280 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:06:08.338 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:06:08.556 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:06:08.929 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:09.214 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:09.372 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:09.397 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:06:09.596 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:06:09.805 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:06:09.988 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:06:10.364 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:10.531 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:10.702 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:06:10.739 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:06:10.940 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:07:31.048 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:33.979 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:07:33.979 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:07:34.069 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:07:34.299 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:07:34.299 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:07:34.341 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:07:34.344 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:34.570 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:07:34.570 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:07:34.628 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:07:34.642 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:34.894 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:07:34.895 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:07:34.938 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:35.168 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:07:35.204 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:35.861 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:07:36.101 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:07:36.324 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:07:36.371 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:36.649 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:07:36.895 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:07:37.098 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:07:37.285 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:07:37.285 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:07:37.334 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:37.616 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:07:38.230 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:07:38.594 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:07:39.051 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:07:39.092 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:39.403 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:07:39.466 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:39.902 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:07:40.286 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:07:40.623 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:07:40.624 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:07:40.699 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:07:41.052 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:07:41.052 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:07:41.254 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:07:41.528 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:07:41.529 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:07:41.750 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:42.221 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:07:42.348 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:42.527 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:07:42.592 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:07:42.766 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:07:42.767 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:07:42.986 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:07:43.172 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:07:43.173 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:07:43.202 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:07:43.202 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:43.611 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:07:43.611 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:07:43.649 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:07:43.651 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:43.908 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:07:43.910 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:07:43.946 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:07:43.948 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:44.316 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:07:44.316 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:07:44.351 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:07:44.352 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:44.576 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:07:44.576 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:07:44.601 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:07:44.602 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:44.922 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:07:44.922 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:07:44.962 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:45.247 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:07:45.280 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:07:45.601 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:07:45.644 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:07:45.850 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:07:46.235 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:46.408 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:46.577 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:46.598 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:07:46.792 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:07:46.974 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:07:47.152 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:07:47.498 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:47.675 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:47.830 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:07:47.850 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:07:48.040 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:09:48.688 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:51.634 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:09:51.635 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:09:51.715 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:09:51.947 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:09:51.949 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:09:51.999 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:09:52.002 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:52.263 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:09:52.263 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:09:52.294 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:09:52.295 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:52.510 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:09:52.510 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:09:52.548 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:52.780 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:09:52.826 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:53.377 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:09:53.579 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:09:53.798 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:09:53.830 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:54.063 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:09:54.263 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:09:54.465 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:09:54.668 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:09:54.668 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:09:54.703 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:54.967 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:09:55.669 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:09:55.918 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:09:56.203 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:09:56.236 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:57.374 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:09:57.545 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:57.883 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:09:57.922 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:09:58.321 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:09:58.321 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:09:58.356 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:09:58.671 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:09:58.671 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:09:58.730 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:09:59.318 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:09:59.318 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:09:59.345 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:09:59.912 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:09:59.943 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:00.432 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:10:00.460 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:10:00.645 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:10:00.645 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:10:00.664 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:10:00.846 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:10:00.847 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:10:00.880 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:10:00.881 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:01.094 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:10:01.095 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:10:01.132 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:10:01.133 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:01.313 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:10:01.314 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:10:01.348 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:10:01.350 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:01.552 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:10:01.552 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:10:01.568 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:10:01.569 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:01.748 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:10:01.748 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:10:01.775 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:10:01.776 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:01.989 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:10:01.989 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:10:02.004 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:02.209 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:10:02.254 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:10:02.595 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:10:02.661 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:10:02.973 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:10:03.310 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:03.480 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:03.675 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:03.698 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:10:03.893 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:10:04.091 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:10:04.296 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:10:04.662 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:04.824 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:04.974 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:10:04.992 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:10:05.166 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:13:08.728 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:12.015 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:13:12.015 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:13:12.175 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:13:12.433 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:13:12.434 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:13:12.505 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:13:12.507 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:12.778 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:13:12.779 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:13:12.838 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:13:12.841 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:13.199 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:13:13.199 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:13:13.267 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:13.524 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:13:13.602 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:14.261 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:13:14.486 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:13:14.686 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:13:14.744 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:15.013 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:13:15.202 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:13:15.409 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:13:15.603 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:13:15.604 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:13:15.637 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:15.867 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:13:16.455 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:13:16.648 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:13:17.001 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:13:17.021 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:17.482 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:13:17.521 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:17.913 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:13:17.939 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:13:18.107 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:13:18.107 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:13:18.121 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:13:18.273 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:13:18.273 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:13:18.289 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:13:18.464 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:13:18.464 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:13:18.483 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:18.681 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:13:18.738 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:18.962 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:13:18.981 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:13:19.174 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:13:19.174 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:13:19.191 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:13:19.400 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:13:19.400 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:13:19.436 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:13:19.437 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:19.681 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:13:19.681 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:13:19.708 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:13:19.710 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:19.945 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:13:19.945 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:13:19.983 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:13:19.987 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:20.206 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:13:20.207 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:13:20.239 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:13:20.240 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:20.584 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:13:20.584 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:13:20.623 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:13:20.624 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:20.965 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:13:20.966 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:13:21.018 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:21.246 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:13:21.266 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:13:21.577 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:13:21.619 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:13:21.857 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:13:22.372 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:22.568 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:22.754 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:22.782 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:13:23.007 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:13:23.185 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:13:23.353 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:13:23.707 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:23.860 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:24.014 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:13:24.043 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:13:24.235 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:25:32.251 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:35.354 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:25:35.355 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:25:35.453 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:25:35.701 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:25:35.701 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:25:35.741 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:25:35.742 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:35.970 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:25:35.971 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:25:36.004 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:25:36.005 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:36.236 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:25:36.237 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:25:36.287 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:36.533 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:25:36.586 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:37.120 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:25:37.323 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:25:37.523 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:25:37.554 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:37.773 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:25:37.962 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:25:38.151 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:25:38.322 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:25:38.322 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:25:38.352 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:38.574 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:25:39.253 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:25:39.483 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:25:39.812 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:25:39.897 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:40.208 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:25:40.241 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:40.504 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 01:25:42.014 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:43.045 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:25:43.173 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:25:43.473 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:25:43.473 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:25:43.672 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:25:44.090 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:25:44.091 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:25:44.117 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:25:44.290 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:25:44.290 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:25:44.332 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:45.883 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:25:45.922 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:46.335 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:25:46.493 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:25:46.909 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:25:46.911 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:25:47.071 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:25:47.294 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:25:47.294 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:25:47.335 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:25:47.337 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:47.987 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:25:47.988 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:25:48.020 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:25:48.020 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:48.416 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:25:48.417 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:25:48.454 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:25:48.456 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:49.058 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:25:49.059 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:25:49.099 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:25:49.101 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:49.408 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:25:49.408 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:25:49.440 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:25:49.441 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:49.690 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:25:49.690 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:25:49.771 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:50.082 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:25:50.193 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:25:50.616 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:25:50.773 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:25:51.109 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:25:51.536 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:51.715 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:51.898 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:52.034 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:25:52.255 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:25:52.536 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:25:52.839 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:25:53.252 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:53.436 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:53.583 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:25:53.621 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:25:53.828 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:42:36.979 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:40.821 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:42:40.821 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:42:40.931 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:42:41.208 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:42:41.208 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:42:41.253 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:42:41.254 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:41.497 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:42:41.498 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:42:41.541 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:42:41.542 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:41.793 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:42:41.793 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:42:41.842 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:42.103 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:42:42.144 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:42.762 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:42:42.992 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:42:43.204 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:42:43.256 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:43.530 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:42:43.729 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:42:43.959 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:42:44.141 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:42:44.141 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:42:44.180 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:44.429 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:42:45.126 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:42:45.316 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:42:45.563 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:42:45.585 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:45.876 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:42:45.900 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:46.101 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 01:42:46.209 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:46.546 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:42:46.683 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:42:46.885 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:42:46.885 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:42:46.902 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:42:47.094 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:42:47.095 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:42:47.129 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:42:47.321 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:42:47.322 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:42:47.391 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:47.740 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:42:47.845 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:48.358 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:42:48.379 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:42:48.552 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:42:48.552 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:42:48.572 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:42:48.727 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:42:48.727 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:42:48.758 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:42:48.759 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:49.020 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:42:49.020 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:42:49.044 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:42:49.044 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:49.277 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:42:49.278 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:42:49.298 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:42:49.298 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:49.504 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:42:49.505 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:42:49.529 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:42:49.530 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:49.779 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:42:49.780 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:42:49.798 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:42:49.800 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:49.988 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:42:49.989 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:42:50.008 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:50.239 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:42:50.276 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:42:50.885 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:42:50.910 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:42:51.098 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:42:51.462 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:51.627 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:51.792 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:51.816 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:42:51.985 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:42:52.161 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:42:52.323 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:42:52.670 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:52.823 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:52.997 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:42:53.017 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:42:53.207 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:49:16.741 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:19.643 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:49:19.643 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:49:19.753 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:49:19.993 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:49:19.993 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:49:20.027 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:49:20.028 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:20.255 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:49:20.255 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:49:20.303 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:49:20.306 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:20.523 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:49:20.523 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:49:20.567 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:20.793 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:49:20.833 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:21.434 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:49:21.651 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:49:21.861 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:49:21.902 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:22.168 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:49:22.368 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:49:22.546 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:49:22.723 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:49:22.724 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:49:22.757 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:23.021 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:49:23.598 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:49:23.808 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:49:24.094 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:49:24.118 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:24.379 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:49:24.410 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:24.934 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 01:49:25.342 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:25.587 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:49:25.630 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:49:25.794 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:49:25.794 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:49:25.814 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:49:25.981 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:49:25.981 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:49:26.002 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:49:26.166 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:49:26.167 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:49:26.188 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:26.382 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:49:26.443 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:26.659 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:49:26.680 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:49:26.854 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:49:26.854 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:49:26.875 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:49:27.029 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:49:27.030 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:49:27.056 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:49:27.057 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:27.269 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:49:27.269 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:49:27.290 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:49:27.291 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:27.480 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:49:27.481 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:49:27.502 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:49:27.503 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:27.684 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:49:27.684 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:49:27.710 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:49:27.715 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:27.980 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:49:27.981 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:49:27.996 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:49:27.997 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:28.160 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:49:28.160 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:49:28.183 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:28.384 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:49:28.407 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:49:28.700 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:49:28.731 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:49:28.926 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:49:29.269 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:29.422 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:29.586 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:29.616 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:49:29.792 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:49:29.962 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:49:30.138 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:49:30.497 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:30.673 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:30.838 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:49:30.859 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:49:31.045 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:58:09.727 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:14.798 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 01:58:14.799 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 01:58:14.927 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 01:58:15.243 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 01:58:15.243 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 01:58:15.317 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 01:58:15.319 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:15.612 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 01:58:15.613 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:58:15.686 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 01:58:15.687 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:15.936 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 01:58:15.937 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 01:58:15.987 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:16.287 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 01:58:16.352 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:17.025 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:58:17.259 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:58:17.491 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 01:58:17.535 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:17.781 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 01:58:17.995 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:58:18.212 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:58:18.402 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 01:58:18.402 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 01:58:18.475 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:18.994 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 01:58:19.955 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 01:58:20.134 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 01:58:20.378 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 01:58:20.403 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:20.695 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 01:58:20.714 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:20.906 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 01:58:20.933 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:21.149 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 01:58:21.171 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:21.423 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 01:58:21.667 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:21.923 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 01:58:21.947 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:58:22.346 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:58:22.347 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:58:22.521 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:58:22.778 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 01:58:22.779 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:58:22.818 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:58:23.217 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 01:58:23.218 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 01:58:23.815 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:25.931 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 01:58:26.669 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:27.061 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:58:27.079 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:58:27.240 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 01:58:27.240 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 01:58:27.262 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:58:27.415 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 01:58:27.415 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 01:58:27.443 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 01:58:27.445 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:27.700 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 01:58:27.700 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 01:58:27.804 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 01:58:27.805 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:28.140 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 01:58:28.140 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 01:58:28.163 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 01:58:28.164 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:28.369 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 01:58:28.369 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 01:58:28.400 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 01:58:28.401 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:28.730 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 01:58:28.730 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 01:58:28.752 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 01:58:28.755 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:29.021 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 01:58:29.021 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 01:58:29.040 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:29.339 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 01:58:29.396 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 01:58:29.955 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 01:58:29.997 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:58:30.227 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:58:30.674 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:30.840 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:31.016 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:31.080 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:58:31.322 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 01:58:31.539 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 01:58:31.757 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 01:58:32.161 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:32.348 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:32.524 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 01:58:32.571 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 01:58:32.800 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:05:09.530 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:13.511 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:05:13.511 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:05:13.749 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:05:14.227 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:05:14.228 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:05:14.278 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:05:14.280 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:14.602 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:05:14.602 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:05:14.648 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:05:14.649 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:14.896 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:05:14.896 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:05:14.931 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:15.314 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:05:16.142 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:17.285 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:05:17.490 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:05:17.691 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:05:17.733 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:18.007 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:05:18.222 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:05:18.426 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:05:18.633 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:05:18.633 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:05:18.682 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:18.959 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:05:19.701 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:05:19.948 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:05:20.217 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:05:20.249 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:20.567 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:05:20.617 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:20.955 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:05:21.002 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:21.364 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:05:21.405 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:21.907 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:05:21.947 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:22.392 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:05:22.700 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:23.145 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 02:05:23.251 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:05:23.486 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:05:23.487 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:05:23.522 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:05:24.036 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:05:24.036 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:05:24.058 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:05:24.225 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:05:24.225 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 02:05:24.248 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:24.453 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 02:05:24.475 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:24.699 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:05:24.720 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:05:24.953 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:05:24.953 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:05:24.974 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:05:25.137 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:05:25.137 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:05:25.164 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:05:25.167 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:25.431 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:05:25.432 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:05:25.460 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:05:25.461 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:25.747 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:05:25.747 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:05:25.779 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:05:25.779 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:25.975 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:05:25.975 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:05:25.996 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:05:25.997 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:26.174 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:05:26.175 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:05:26.193 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:05:26.194 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:26.375 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:05:26.376 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:05:26.394 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:26.584 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:05:26.624 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:05:26.960 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:05:26.995 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:05:27.197 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:05:27.523 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:27.687 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:27.850 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:27.867 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:05:28.041 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:05:28.218 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:05:28.395 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:05:28.765 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:28.915 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:29.070 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:05:29.090 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:05:29.263 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:13:18.733 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:21.554 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:13:21.554 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:13:21.682 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:13:21.913 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:13:21.913 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:13:21.950 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:13:21.951 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:22.180 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:13:22.180 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:13:22.215 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:13:22.217 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:22.422 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:13:22.422 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:13:22.472 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:22.707 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:13:22.754 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:23.255 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:13:23.471 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:13:23.693 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:13:23.721 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:23.965 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:13:24.158 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:13:24.326 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:13:24.510 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:13:24.510 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:13:24.547 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:24.768 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:13:25.397 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:13:25.621 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:13:25.922 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:13:26.012 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:26.989 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:13:27.081 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:27.726 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:13:28.216 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:28.516 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:13:28.537 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:28.778 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:13:28.800 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:29.310 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:13:29.423 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:29.966 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 02:13:30.064 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:13:30.284 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:13:30.284 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:13:30.314 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:13:30.480 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:13:30.481 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:13:30.504 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:13:30.676 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:13:30.676 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 02:13:30.705 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:31.065 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 02:13:31.127 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:31.356 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:13:31.381 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:13:31.554 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:13:31.554 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:13:31.574 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:13:31.749 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:13:31.749 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:13:31.778 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:13:31.780 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:31.987 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:13:31.988 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:13:32.007 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:13:32.009 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:32.226 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:13:32.228 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:13:32.248 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:13:32.248 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:32.444 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:13:32.444 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:13:32.469 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:13:32.470 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:32.670 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:13:32.670 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:13:32.687 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:13:32.688 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:32.915 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:13:32.915 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:13:32.940 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:33.190 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:13:33.210 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:13:33.530 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:13:33.580 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:13:33.828 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:13:34.268 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:34.414 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:34.597 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:34.638 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:13:34.836 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:13:35.021 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:13:35.195 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:13:35.523 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:35.681 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:35.839 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:13:35.865 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:13:36.036 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:17:23.603 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:28.497 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:17:28.498 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:17:28.638 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:17:28.921 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:17:28.921 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:17:28.987 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:17:28.989 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:29.278 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:17:29.279 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:17:29.352 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:17:29.355 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:29.610 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:17:29.610 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:17:29.664 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:29.946 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:17:30.016 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:30.761 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:17:30.989 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:17:31.286 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:17:31.389 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:31.685 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:17:31.897 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:17:32.090 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:17:32.286 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:17:32.286 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:17:32.408 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:32.768 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:17:33.689 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:17:34.041 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:17:34.268 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:17:34.289 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:34.574 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:17:34.586 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:34.799 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:17:34.815 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:35.026 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:17:35.235 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:35.585 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:17:35.612 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:35.870 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:17:35.898 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:36.049 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:36.123 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:17:36.300 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:17:36.300 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:17:36.334 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:17:36.496 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:17:36.496 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:17:36.519 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:17:36.573 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:36.720 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:36.885 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:17:37.053 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:17:37.054 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:17:37.079 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:17:37.254 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:17:37.254 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:17:37.280 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:17:37.282 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:37.716 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:17:37.716 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:17:37.740 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:17:37.742 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:37.975 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:17:37.975 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:17:38.018 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:17:38.019 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:38.316 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:17:38.316 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:17:38.339 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:17:38.340 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:38.540 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:17:38.540 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:17:38.569 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:17:38.570 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:38.765 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:17:38.765 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:17:38.789 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:39.002 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:17:39.023 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:17:39.070 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:17:39.091 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:17:39.282 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:39.462 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:39.625 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:39.648 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:17:39.820 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:17:39.998 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:17:40.015 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:17:40.182 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:40.335 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:40.490 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:17:40.531 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:17:40.722 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:19:34.598 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:37.703 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:19:37.703 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:19:37.788 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:19:38.014 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:19:38.015 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:19:38.052 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:19:38.054 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:38.299 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:19:38.300 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:19:38.351 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:19:38.353 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:38.559 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:19:38.560 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:19:38.614 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:38.863 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:19:38.903 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:39.420 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:19:39.633 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:19:39.872 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:19:39.902 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:40.131 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:19:40.328 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:19:40.532 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:19:40.709 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:19:40.709 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:19:40.768 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:41.036 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:19:41.699 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:19:41.883 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:19:42.153 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:19:42.181 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:42.437 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:19:42.463 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:42.939 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:19:42.985 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:44.030 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:19:44.077 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:44.920 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:19:44.967 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:45.909 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:19:45.951 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:46.235 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 02:19:46.267 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:19:46.428 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:19:46.429 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:19:46.447 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:19:46.600 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:19:46.601 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:19:46.624 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:19:46.797 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:19:46.798 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 02:19:46.945 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:47.406 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 02:19:47.774 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:48.040 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:19:48.071 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:19:48.264 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:19:48.264 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:19:48.299 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:19:48.491 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:19:48.491 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:19:48.636 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:19:48.641 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:48.928 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:19:48.928 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:19:48.967 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:19:48.968 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:49.185 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:19:49.186 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:19:49.214 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:19:49.215 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:49.415 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:19:49.415 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:19:49.450 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:19:49.450 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:49.659 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:19:49.659 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:19:49.687 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:19:49.688 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:49.926 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:19:49.926 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:19:49.964 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:50.198 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:19:50.231 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:19:50.513 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:19:50.582 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:19:50.785 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:19:51.132 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:51.288 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:51.449 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:51.474 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:19:51.658 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:19:51.856 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:19:52.049 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:19:52.417 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:52.598 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:52.777 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:19:52.806 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:19:52.983 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:22:48.767 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:51.493 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:22:51.493 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:22:51.627 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:22:51.958 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:22:51.960 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:22:52.042 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:22:52.051 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:52.290 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:22:52.291 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:22:52.323 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:22:52.324 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:52.568 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:22:52.568 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:22:52.612 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:52.862 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:22:52.908 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:53.410 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:22:53.602 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:22:53.823 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:22:53.851 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:54.096 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:22:54.278 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:22:54.460 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:22:54.647 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:22:54.647 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:22:54.708 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:54.956 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:22:55.655 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:22:55.910 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:22:56.188 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:22:56.211 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:56.482 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:22:56.517 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:56.748 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:22:56.795 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:57.737 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:22:57.760 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:57.982 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:22:58.005 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:22:58.213 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:23:00.352 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:01.922 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 02:23:02.527 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:23:02.729 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:23:02.729 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:23:02.747 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:23:02.907 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:23:02.908 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:23:02.938 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:23:03.112 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:23:03.112 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 02:23:03.156 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:03.482 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 02:23:03.631 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:03.883 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:23:03.910 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:23:04.077 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:23:04.078 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:23:04.109 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:23:04.272 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:23:04.273 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:23:04.307 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:23:04.309 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:04.598 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:23:04.599 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:23:04.622 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:23:04.623 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:04.822 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:23:04.822 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:23:04.849 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:23:04.850 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:05.065 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:23:05.065 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:23:05.092 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:23:05.094 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:05.305 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:23:05.306 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:23:05.328 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:23:05.329 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:05.718 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:23:05.718 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:23:05.737 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:06.030 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:23:06.042 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:23:06.329 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:23:06.555 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:23:06.804 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:23:07.177 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:07.342 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:07.492 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:07.526 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:23:07.695 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:23:07.869 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:23:08.045 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:23:08.374 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:08.524 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:08.676 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:23:08.691 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:23:08.881 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:26:52.290 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:55.550 [main]LoggerLoad-----Programpost----
+[INFO ]2023-07-27 02:26:55.550 [main]LoggerLoad-***user sends the post  request****
+[INFO ]2023-07-27 02:26:55.663 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/programs/
+[INFO ]2023-07-27 02:26:55.906 [main]LoggerLoad-----get Program by Id----
+[INFO ]2023-07-27 02:26:55.907 [main]LoggerLoad-***user sends the get request by sending the program id***
+[INFO ]2023-07-27 02:26:55.944 [main]LoggerLoad-******given with the baseurl and endpoint for update program status with programid*******
+[INFO ]2023-07-27 02:26:55.945 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:56.211 [main]LoggerLoad-----Update Program by ID----
+[INFO ]2023-07-27 02:26:56.211 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:26:56.308 [main]LoggerLoad-**********Given baseurl and endpoint for update program with name*********
+[INFO ]2023-07-27 02:26:56.313 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:56.536 [main]LoggerLoad-----Update Program by Name----
+[INFO ]2023-07-27 02:26:56.536 [main]LoggerLoad-****************successfully updated with program name*********************
+[INFO ]2023-07-27 02:26:56.567 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:56.789 [main]LoggerLoad-----Save Batch----
+[INFO ]2023-07-27 02:26:56.828 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:57.535 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:26:57.729 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:26:57.943 [main]LoggerLoad----Create user----
+[INFO ]2023-07-27 02:26:57.980 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:58.210 [main]LoggerLoad-*********https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/users/users/
+[INFO ]2023-07-27 02:26:58.394 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:26:58.582 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:26:58.766 [main]LoggerLoad-----UpdateUser----
+[INFO ]2023-07-27 02:26:58.766 [main]LoggerLoad-****user got by userid*****
+[INFO ]2023-07-27 02:26:58.809 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:26:59.047 [main]LoggerLoad-----Create Assignment----
+[INFO ]2023-07-27 02:26:59.640 [main]LoggerLoad-----getAll Assignment----
+[INFO ]2023-07-27 02:26:59.830 [main]LoggerLoad-----get Assignment by Id----
+[INFO ]2023-07-27 02:27:00.043 [main]LoggerLoad-----get by BatchId----
+[INFO ]2023-07-27 02:27:00.166 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:00.549 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:27:00.575 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:00.787 [main]LoggerLoad-----Create InvalidAssignment----
+[INFO ]2023-07-27 02:27:00.810 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:01.023 [main]LoggerLoad-----get Assignment by InvalidId----
+[INFO ]2023-07-27 02:27:01.061 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:01.284 [main]LoggerLoad-----get by InvalidBatchId----
+[INFO ]2023-07-27 02:27:01.307 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:01.872 [main]LoggerLoad-----update Assignment----
+[INFO ]2023-07-27 02:27:01.909 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:02.148 [main]LoggerLoad-----Save AssignmentSubmission----
+[INFO ]2023-07-27 02:27:02.170 [main]LoggerLoad-***Sending the GetAllProgram Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission
+[INFO ]2023-07-27 02:27:02.538 [main]LoggerLoad-----getAll AssignmentSubmission----
+[INFO ]2023-07-27 02:27:02.539 [main]LoggerLoad-***user sends the get all request****
+[INFO ]2023-07-27 02:27:02.558 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:27:02.712 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:27:02.713 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:27:02.729 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:27:02.892 [main]LoggerLoad-----get AssignmentSubmission BatchId----
+[INFO ]2023-07-27 02:27:02.892 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:27:02.910 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:27:03.071 [main]LoggerLoad-----get AssignmentSubmission Grade AssignmentId----
+[INFO ]2023-07-27 02:27:03.071 [main]LoggerLoad-***user sends the get gradeassignmentID request****
+[INFO ]2023-07-27 02:27:03.094 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:03.282 [main]LoggerLoad-----Update AssignmentSubmission----
+[INFO ]2023-07-27 02:27:03.357 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:03.555 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:27:03.574 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:27:03.740 [main]LoggerLoad-----get AssignmentSubmission by gradeStudentId----
+[INFO ]2023-07-27 02:27:03.741 [main]LoggerLoad-***user sends the get GradeStudentID request****
+[INFO ]2023-07-27 02:27:03.766 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:27:03.942 [main]LoggerLoad-----get AssignmentSubmission by gradeBatchId----
+[INFO ]2023-07-27 02:27:03.942 [main]LoggerLoad-***user sends the get GradeBatchID request****
+[INFO ]2023-07-27 02:27:03.968 [main]LoggerLoad-***Sending the GET StudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/student/
+[INFO ]2023-07-27 02:27:03.968 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:04.179 [main]LoggerLoad-----get AssignmentSubmission by InvalidStudentId----
+[INFO ]2023-07-27 02:27:04.180 [main]LoggerLoad-***user sends the GET StudentID request****
+[INFO ]2023-07-27 02:27:04.212 [main]LoggerLoad-***Sending the GET BatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/studentbatch/
+[INFO ]2023-07-27 02:27:04.212 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:04.383 [main]LoggerLoad-----get AssignmentSubmission by InvalidBatchId----
+[INFO ]2023-07-27 02:27:04.383 [main]LoggerLoad-***user sends the GET BatchID request****
+[INFO ]2023-07-27 02:27:04.424 [main]LoggerLoad-***Sending the GradeValidAssignment Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGrades/
+[INFO ]2023-07-27 02:27:04.426 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:04.618 [main]LoggerLoad-----get AssignmentSubmission by InvalidSubmissionId----
+[INFO ]2023-07-27 02:27:04.620 [main]LoggerLoad-***user sends the get InvalidgradeassignmentID request****
+[INFO ]2023-07-27 02:27:04.638 [main]LoggerLoad-***Sending the GradeStudentID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/getGradesByStudentId/
+[INFO ]2023-07-27 02:27:04.639 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:04.835 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeStudentId----
+[INFO ]2023-07-27 02:27:04.835 [main]LoggerLoad-***user sends the get InvalidGradeStudentID request****
+[INFO ]2023-07-27 02:27:04.857 [main]LoggerLoad-***Sending the GradeBatchID Given code***https://lms-api-hackathon-june2023-930a8b0f895d.herokuapp.com/lms/assignmentsubmission/grades/
+[INFO ]2023-07-27 02:27:04.858 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:05.048 [main]LoggerLoad-----get AssignmentSubmission by InvalidgradeBatchId----
+[INFO ]2023-07-27 02:27:05.049 [main]LoggerLoad-***user sends the get InvalidGradeBatchID request****
+[INFO ]2023-07-27 02:27:05.066 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:05.267 [main]LoggerLoad-----Invalid SubmissionPost----
+[INFO ]2023-07-27 02:27:05.284 [main]LoggerLoad-----Reading TestData from Excel----
+[INFO ]2023-07-27 02:27:05.609 [main]LoggerLoad-----Re-AssignmentSubmission----
+[INFO ]2023-07-27 02:27:05.660 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:27:05.885 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:27:06.208 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:06.371 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:06.535 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:06.556 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:27:06.744 [main]LoggerLoad-----Delete Program----
+[INFO ]2023-07-27 02:27:06.948 [main]LoggerLoad-----Delete AssignmentSubmission----
+[INFO ]2023-07-27 02:27:07.132 [main]LoggerLoad-----Delete Assignment----
+[INFO ]2023-07-27 02:27:07.470 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:07.621 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:07.776 [main]LoggerLoad-----Delete User----
+[INFO ]2023-07-27 02:27:07.795 [main]LoggerLoad-----Delete Batch----
+[INFO ]2023-07-27 02:27:07.974 [main]LoggerLoad-----Delete Program----

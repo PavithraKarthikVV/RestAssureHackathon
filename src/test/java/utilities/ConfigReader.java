@@ -332,6 +332,58 @@ public class ConfigReader {
 		}	return getEndPoint;	
 	}
 	
+	public static String endpointAssgnmentgetAll() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assignmentget");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	public static String endpointAssgnmentgetbyId() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assignmentgetbyid");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	public static String endpointAssgnmentByBatch() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assignmentgetbybatch");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
+	public static String endpointAssgnmentput() throws IOException
+	{prop=init_prop();
+		String getEndPoint = prop.getProperty("assignmentput");
+		
+		if(getEndPoint!=null)
+		{
+			return getEndPoint;
+		}else
+		{
+			System.out.println("Endpoint is not mentioned in config properties");
+		}	return getEndPoint;	
+	}
+	
 	
 	
 	

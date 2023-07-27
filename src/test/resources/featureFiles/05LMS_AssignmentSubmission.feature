@@ -11,6 +11,11 @@ Then User receives 201 Created Status with response body for assignmentSubmissio
 	|SheetName|Rowno|
   |user     |0    |    
 
+@Get_AllSubmissions
+ Scenario: validating User able to retrieve all AssignmentSubmission with valid endpoint
+ Given User is provided with the BaseUrl and the Endpoints to create a GET request for AssignmentSubmission
+ When  User send the HTTPsGET request for AssignmentSubmission
+ Then  User receives 200 Created Status with response body for assignmentSubmission
 
    @Get_AssignmentSubmision_StudentID
   Scenario: validating User able to retrieve AssignmentSubmission by StudenID with valid endpoint
@@ -31,7 +36,7 @@ Then User receives 201 Created Status with response body for assignmentSubmissio
     When  User send the HTTPsGET GradeValidAssignment request valid AssignmentId for AssignmentSubmission
     Then  User receives 200 Created Status with response body for assignmentSubmission
  
-   @put_assignment
+   @put_assignmentsubmission
  Scenario Outline: ResubmissionAssignment
 	Given User creates PUT Resubmission Request for the assignmentSubmission LMS API endpoint
 	When User sends PUT_HTTPS Request for assignmentSubmission using "<SheetName>" and <Rowno> 
@@ -51,8 +56,6 @@ Then User receives 200 Created Status with response body for assignmentSubmissio
   |user     |0    |   
  
  
- 
-
   @Get_Grade_ValidStudentID
   Scenario: validating User able to retrieve AssignmentSubmission by GradeStudentID with valid endpoint
     Given User is provided with the BaseUrl and the Endpoints to create a GET GradeStudentID request for AssignmentSubmission
