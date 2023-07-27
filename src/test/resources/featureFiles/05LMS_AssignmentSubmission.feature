@@ -124,7 +124,7 @@ Then User receives 400 Created Status with response body for assignmentSubmissio
   |user     |0    |  
   
   
-  @NegativePut404	
+  @NegativePost404	
 Scenario Outline:
 Given User creates POST Request for the assignmentSubmission LMS API endpoint
 When User sends invalidHTTPS404 Request for assignmentSubmission using "<SheetName>" and <Rowno> 
@@ -133,4 +133,39 @@ Then User receives 404 Created Status with response body for assignmentSubmissio
 	|SheetName|Rowno|
   |user     |0    |  
   
+   @NegativePut400		
+Scenario Outline:
+Given User creates PUT Resubmission Request for the assignmentSubmission LMS API endpoint
+When User sends invalidHTTPS PUT Request for assignmentSubmission using "<SheetName>" and <Rowno> 
+Then User receives 400 Created Status with response body for assignmentSubmission
+ Examples:
+	|SheetName|Rowno|
+  |user     |0    |  
   
+  
+  @NegativePut404	
+Scenario Outline:
+Given User creates PUT Resubmission Request for the assignmentSubmission LMS API endpoint
+When User sends invalidHTTPS404 PUT Request for assignmentSubmission using "<SheetName>" and <Rowno> 
+Then User receives 404 Created Status with response body for assignmentSubmission
+ Examples:
+	|SheetName|Rowno|
+  |user     |0    |  
+  
+  @Negativeput_Grade_assignment
+ Scenario Outline: Grade Assignment
+Given User creates PUT Request for the assignmentSubmission grade LMS API endpoint
+When User sends HTTPS Invalid Request for assignmentSubmission grade using "<SheetName>" and <Rowno> 
+Then User receives 400 Created Status with response body for assignmentSubmission
+ Examples:
+	|SheetName|Rowno|
+  |user     |0    |
+  
+   @Negativeput_Grade_assignment
+ Scenario Outline: Grade Assignment
+Given User creates PUT Request for the assignmentSubmission grade LMS API endpoint
+When User sends HTTPS404 invalid Request for assignmentSubmission grade using "<SheetName>" and <Rowno> 
+Then User receives 404 Created Status with response body for assignmentSubmission
+ Examples:
+	|SheetName|Rowno|
+  |user     |0    |      

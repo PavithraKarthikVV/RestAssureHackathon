@@ -185,7 +185,34 @@ public class FAssignmentSubmission_SD {
 	@When("User sends invalidHTTPS404 Request for assignmentSubmission using {string} and {int}")
 	public void user_sends_invalidhttps404_request_and_request_body_with_mandatory_additional_using_and_rowno(String sheetname,Integer rowno) throws InvalidFormatException, IOException {
 		assgSub.getDatafromExcel(sheetname, rowno);
-	  assgSub.putassignmentsubmissionGrade(posturi);
+	  assgSub.invalidpostassignmentsubmission404(posturi);
 	   
 	}
+
+	@When("User sends invalidHTTPS PUT Request for assignmentSubmission using {string} and {int}")
+	public void user_sends_invalidhttps_put_request_and_request_body_with_mandatory_additional_using_and_rowno(String sheetname,Integer rowno) throws InvalidFormatException, IOException {
+		assgSub.getDatafromExcel(sheetname, rowno);
+	  assgSub.invalidputtassignmentsubmission(posturi);
+	   
+	}
+	@When("User sends invalidHTTPS404 PUT Request for assignmentSubmission using {string} and {int}")
+	public void user_sends_invalidhttps404_put_request_and_request_body_with_mandatory_additional_using_and_rowno(String sheetname,Integer rowno) throws InvalidFormatException, IOException {
+		assgSub.getDatafromExcel(sheetname, rowno);
+	  assgSub.invalidputassignmentsubmission404(posturi);
+	}
+	
+	
+	@When("User sends HTTPS Invalid Request for assignmentSubmission grade using {string} and {int}")
+	public void user_send_the_https_invalid_get_GradeValidAssignment_request_for_assignmentsubmission(String sheetname,Integer rowno) throws InvalidFormatException, IOException  {
+		assgSub.getDatafromExcel(sheetname, rowno);
+		assgSub.invaldputassignmentsubmissionGrade(posturi);
+	 LoggerLoad.info("***user sends the getInvalid gradeassignmentID request****");	
+	}
+	@When("User sends HTTPS404 invalid Request for assignmentSubmission grade using {string} and {int}")
+		public void user_send_the_invalid_https_get_GradeValidAssignment_request_for_assignmentsubmission(String sheetname,Integer rowno) throws InvalidFormatException, IOException {
+		assgSub.getDatafromExcel(sheetname, rowno);
+		assgSub.invalidputassignmentsubmissionGrade404(posturi);
+		 LoggerLoad.info("***user sends the getInvalid gradeassignmentID request****");		  
+		}
+	
 }

@@ -100,10 +100,10 @@ public class FAssignmentSubmission {
    		objnode.put("assignmentId",DAssignment.AssignmentId);
 		objnode.put("userId",CUser.UserId[2]);
 		objnode.put("subDesc",subDescription);
-		objnode.put("subComments","Resubmit");
+		objnode.put("subComments",comments+"updated");
 		objnode.put( "subPathAttach1","Filepath1");
 		objnode.put("subDateTime",commonfun.getcurrentDateTime());
-		objnode.put("gradedBy",gradeby);
+		objnode.put("gradedBy",CUser.UserId[0]);
 		objnode.put("gradedDateTime",gradedatetime);
 		objnode.put("grade",-1);
 		
@@ -139,7 +139,7 @@ public class FAssignmentSubmission {
 		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
 		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
 		statuscode=response.getStatusCode();
-		LoggerLoad.info("----Re-AssignmentSubmission----");
+		LoggerLoad.info("----GradeAssignmentSubmission----");
 	
 	}
    	public void getAssignmentSubmissionGradeByAssignmentId(String postUri)
@@ -238,7 +238,7 @@ public class FAssignmentSubmission {
 	{
 		ObjectMapper obj=new ObjectMapper();
 		ObjectNode objnode = obj.createObjectNode();
-		objnode.put("userId",CUser.UserId[2]);
+		objnode.put("userId",CUser.UserId[2]);/*missing assignment id*/
 		objnode.put("subDesc",subDescription);
 		objnode.put("subComments",comments);
 		objnode.put( "subPathAttach1","Filepath1");
@@ -260,6 +260,7 @@ public class FAssignmentSubmission {
 	{
 		ObjectMapper obj=new ObjectMapper();
 		ObjectNode objnode = obj.createObjectNode();
+		objnode.put("assignmentId",DAssignment.AssignmentId);
 		objnode.put("userId",invalidbatchid);
 		objnode.put("subDesc",subDescription);
 		objnode.put("subComments",comments);
@@ -268,7 +269,6 @@ public class FAssignmentSubmission {
 		objnode.put("gradedBy",CUser.UserId[0]);
 		objnode.put("gradedDateTime",gradedatetime);
 		objnode.put("grade",-1);
-		
 		String payload = objnode.toString();
 		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
 		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
@@ -277,5 +277,115 @@ public class FAssignmentSubmission {
 		statuscode=response.getStatusCode();	
 		LoggerLoad.info("----Invalid Submission 404----");
 	}
-
+	public void invalidputtassignmentsubmission(String uri) throws JsonProcessingException
+	{
+		ObjectMapper obj=new ObjectMapper();
+		ObjectNode objnode = obj.createObjectNode();
+		objnode.put("userId",CUser.UserId[2]);
+		objnode.put("subDesc",subDescription);
+		objnode.put("subComments","Done");
+		objnode.put( "subPathAttach1","Filepath1");
+		objnode.put("gradedBy",CUser.UserId[0]);
+		objnode.put("gradedDateTime",commonfun.getcurrentDateTime());
+		objnode.put("grade",1);
+		
+		String payload = objnode.toString();
+		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
+		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
+		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
+		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Re-AssignmentSubmission----");
+	
+	}
+	public void invalidputassignmentsubmission(String uri) throws JsonProcessingException
+	{
+		ObjectMapper obj=new ObjectMapper();
+		ObjectNode objnode = obj.createObjectNode();
+		objnode.put("userId",CUser.UserId[2]);
+		objnode.put("subDesc",subDescription);
+		objnode.put("subComments","Done");
+		objnode.put( "subPathAttach1","Filepath1");
+		objnode.put("subDateTime",submissiondatetime);
+		objnode.put("gradedBy",CUser.UserId[0]);
+		objnode.put("gradedDateTime",commonfun.getcurrentDateTime());
+		objnode.put("grade",1);
+		
+		String payload = objnode.toString();
+		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
+		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
+		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
+		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Re-AssignmentSubmission----");
+	
+	}
+	public void invalidputassignmentsubmission404(String uri) throws JsonProcessingException
+	{ObjectMapper obj=new ObjectMapper();
+	ObjectNode objnode = obj.createObjectNode();
+		objnode.put("assignmentId",Integer.valueOf(DAssignment.AssignmentId));
+		objnode.put("userId",invalidbatchid);
+		objnode.put("subDesc",subDescription);
+		objnode.put("subComments",comments);
+		objnode.put( "subPathAttach1","Filepath1");
+		objnode.put("subDateTime",gradeby);
+		objnode.put("gradedBy",CUser.UserId[0]);
+		objnode.put("gradedDateTime",gradedatetime);
+		objnode.put("grade",-1);
+		String payload = objnode.toString();
+		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
+		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
+		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",invalidassignmentid);
+		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		LoggerLoad.info("----Inavlid404put----");
+	
+	
+	}
+	
+	public void invaldputassignmentsubmissionGrade(String uri) throws JsonProcessingException
+	{
+		ObjectMapper obj=new ObjectMapper();
+		ObjectNode objnode = obj.createObjectNode();
+		objnode.put("userId",CUser.UserId[2]);
+		objnode.put("subDesc",subDescription);
+		objnode.put("subComments","Done");
+		
+		objnode.put("subDateTime",submissiondatetime);
+		objnode.put("gradedBy",CUser.UserId[0]);
+		objnode.put("gradedDateTime",commonfun.getcurrentDateTime());
+		objnode.put("grade",1);
+		
+		String payload = objnode.toString();
+		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
+		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
+		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",AssignmentSubmissionId);
+		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		LoggerLoad.info("----InvalidPutGradeAssignmentSubmission----");
+	
+	}
+	public void invalidputassignmentsubmissionGrade404(String uri) throws JsonProcessingException
+	{
+		ObjectMapper obj=new ObjectMapper();
+		ObjectNode objnode = obj.createObjectNode();
+		objnode.put("assignmentId",DAssignment.AssignmentId);
+		objnode.put("userId",invalidstudentid);
+		objnode.put("subDesc",subDescription);
+		objnode.put("subComments","Done");
+		objnode.put( "subPathAttach1","Filepath1");
+		objnode.put("subDateTime",submissiondatetime);
+		objnode.put("gradedBy",CUser.UserId[0]);
+		objnode.put("gradedDateTime",commonfun.getcurrentDateTime());
+		objnode.put("grade",1);
+		
+		String payload = objnode.toString();
+		String createdNestedJsonObject = obj.writerWithDefaultPrettyPrinter().writeValueAsString(objnode);
+		System.out.println("Assignment Request: \n"+ createdNestedJsonObject);
+		Response response = noAuthendication(noAuth).body(payload).put(uri+"{assignsid}",invalidassignmentid);
+		System.out.println("AssignmentSubmission Response:\n"+response.jsonPath().prettyPrint());
+		statuscode=response.getStatusCode();
+		LoggerLoad.info("----InvaliGradeAssignmentSubmission404----");
+	
+	}
 }
